@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="devName">JamesClonk</string>
+	<string name="appName">Klingelton Wechsler</string>
+
+	<string name="randomize">Klingelton wechseln</string>
+	<string name="clear">Klingeltöne leeren</string>
+	<string name="clearTitle">Klingeltonliste leeren</string>
+	<string name="clearQuestion">Möchten Sie wirklich alle benutzerspezifischen Klingeltöne leeren?</string>
+	<string name="clearYes">Ja</string>
+	<string name="clearNo">NEIN!</string>
+	<string name="exit">Schliessen</string>
+
+	<string name="selectAll">Alle auswählen</string>
+	<string name="deselectAll">Alle abwählen</string>
+	
+	<string name="progressTitle">Klingeltonliste</string>
+    <string name="progressText">Suche Klingeltöne..</string>
+    
+    <string name="menuTitle">Klingelton</string>
+    <string name="preview">Abspielen</string>
+    <string name="set">Speichern</string>
+    <string name="remove">Entfernen</string>
+
+	<string name="preferences">Einstellungen</string>
+	<string name="notificationCurrently">Momentan</string>
+	<string name="toastNewRingtone">Neuer Klingelton</string>
+
+	<string name="randomizerTitle">Klingeltonwechsler einschalten</string>
+    <string name="randomizerInformation">Automatischer Klingeltonwechsel nach jedem Anruf</string>
+    <string name="notificationTitle">Statusanzeige einschalten</string>
+    <string name="notificationInformation">Zeigt Statusanzeige mit aktuellem Klingelton an</string>
+    <string name="messagesTitle">Nachrichten anzeigen</string>
+    <string name="messagesInformation">Zeigt eine Nachricht für jeden manuellen Wechsel an</string>
+	<string name="onOff">Ein / Aus</string>
+
+	<string name="artist">Künstler</string>
+	<string name="album">Album</string>
+
+</resources>

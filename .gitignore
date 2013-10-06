@@ -1,3 +1,6 @@
+android.keystore
+keystore/
+
 # built application files
 *.apk
 *.ap_

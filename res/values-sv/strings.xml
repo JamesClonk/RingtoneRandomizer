@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="devName">JamesClonk</string>
+    <string name="appName">Ringsignalsväxlare</string>
+    
+    <string name="randomize">Byt ringsignal</string>
+    <string name="clear">Rensa ringsignal</string>
+    <string name="clearTitle">Rensa ringsignalslista</string>
+    <string name="clearQuestion">Vill du verkligen rensa alla anpassade ringsignaler?</string>
+    <string name="clearYes">Ja</string>
+    <string name="clearNo">NEJ!</string>
+    <string name="exit">Stäng</string>
+    
+    <string name="selectAll">Markera alla</string>
+    <string name="deselectAll">Avmarkera alla</string>
+    
+    <string name="progressTitle">Ringsignalslista</string>
+    <string name="progressText">Söker ringsignaler..</string>
+    
+    <string name="menuTitle">Ringsignal</string>
+    <string name="preview">Spela</string>
+    <string name="set">Sätt</string>
+    <string name="remove">Ta bort</string>
+    
+    <string name="preferences">Inställningar</string>
+    <string name="notificationCurrently">Nuvarande</string>
+    <string name="toastNewRingtone">Ny ringsignal</string>
+    
+    <string name="randomizerTitle">Aktivera växlare</string>
+    <string name="randomizerInformation">Byt automatiskt till en slumpmässig ringsignal för varje samtal</string>
+    <string name="notificationTitle">Visa statusikon</string>
+    <string name="notificationInformation">Visar statusikon som visar aktuell ringsignal</string>
+    <string name="messagesTitle">Visa popup-meddelanden</string>
+    <string name="messagesInformation">Visar ett popup-meddelande för varje manuell förändring</string>
+    <string name="onOff">På / Av</string>
+    
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+    
+</resources>

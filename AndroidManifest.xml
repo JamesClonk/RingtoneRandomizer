@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="ch.jamesclonk.android.ringtonerandomizer" android:versionCode="2"
+	android:versionName="2.0.2">
+
+	<uses-sdk android:minSdkVersion="7" android:targetSdkVersion="7" />
+
+	<application android:icon="@drawable/icon" android:label="@string/appName"
+		android:debuggable="false">
+
+		<activity android:name=".RandomizerControlPanel"
+			android:label="@string/appName">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<service android:name=".RandomizerNotificationService"
+			android:label="RandomizerNotificationService" />
+
+		<service android:name=".RandomizerRandomizeRingtoneService"
+			android:label="@string/randomize" />
+
+		<receiver android:name=".RandomizerPhoneStateReceiver"
+			android:label="RandomizerPhoneStateReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.PHONE_STATE" />
+			</intent-filter>
+		</receiver>
+
+		<receiver android:name=".RandomizerBootCompletedReceiver"
+			android:label="RandomizerBootCompletedReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+			</intent-filter>
+		</receiver>
+
+		<receiver android:name=".RandomizerWidget" android:label="RandomizerWidget">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			</intent-filter>
+			<meta-data android:name="android.appwidget.provider"
+				android:resource="@xml/widget" />
+		</receiver>
+
+	</application>
+
+	<uses-permission android:name="android.permission.WRITE_SETTINGS"></uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
+
+</manifest> 

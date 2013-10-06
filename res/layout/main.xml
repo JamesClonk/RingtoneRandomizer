@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:background="@drawable/black">
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:gravity="center_vertical">
+
+
+			<CheckBox android:id="@+id/randomizerCheckbox"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginLeft="2dip" android:ellipsize="end" />
+
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="fill_parent" android:layout_weight="1"
+				android:layout_height="wrap_content" android:gravity="center_vertical">
+
+				<TextView android:text="@string/randomizerTitle"
+					android:id="@+id/randomizerTitle" style="@style/checkboxTitle"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:layout_weight="1" android:gravity="center_vertical"
+					android:singleLine="true" android:ellipsize="end" />
+
+				<TextView android:text="@string/randomizerInformation"
+					android:id="@+id/randomizerInformation" style="@style/checkboxInformation"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:layout_weight="1" android:gravity="center_vertical"
+					android:singleLine="true" android:ellipsize="end" />
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:gravity="center_vertical">
+
+
+			<CheckBox android:id="@+id/notifcationCheckbox"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginLeft="2dip" android:ellipsize="end" />
+
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="fill_parent" android:layout_weight="1"
+				android:layout_height="wrap_content" android:gravity="center_vertical">
+
+				<TextView android:text="@string/notificationTitle"
+					android:id="@+id/notificationTitle" style="@style/checkboxTitle"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:layout_weight="1" android:gravity="center_vertical"
+					android:singleLine="true" android:ellipsize="end" />
+
+				<TextView android:text="@string/notificationInformation"
+					android:id="@+id/notificationInformation" style="@style/checkboxInformation"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:layout_weight="1" android:gravity="center_vertical"
+					android:singleLine="true" android:ellipsize="end" />
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:gravity="center_vertical">
+
+			<CheckBox android:id="@+id/messagesCheckbox"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginLeft="2dip" android:ellipsize="end" />
+
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="fill_parent" android:layout_weight="1"
+				android:layout_height="wrap_content" android:gravity="center_vertical">
+
+				<TextView android:text="@string/messagesTitle"
+					android:id="@+id/messagesTitle" style="@style/checkboxTitle"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:layout_weight="1" android:gravity="center_vertical"
+					android:singleLine="true" android:ellipsize="end" />
+
+				<TextView android:text="@string/messagesInformation"
+					android:id="@+id/messageInformation" style="@style/checkboxInformation"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:layout_weight="1" android:gravity="center_vertical"
+					android:singleLine="true" android:ellipsize="end" />
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+		android:gravity="center_horizontal" android:orientation="horizontal"
+		android:background="@drawable/darkGray">
+
+		<Button android:id="@+id/selectAll" style="@style/Button"
+			android:text="@string/selectAll" android:layout_marginTop="4dip"
+			android:layout_marginBottom="4dip" />
+
+		<Button android:id="@+id/deselectAll" style="@style/Button"
+			android:text="@string/deselectAll" android:layout_marginTop="4dip"
+			android:layout_marginBottom="4dip" />
+
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:background="@drawable/black">
+
+		<ListView android:layout_width="fill_parent" android:id="@+id/ringtoneList"
+			android:layout_height="wrap_content" android:layout_weight="1" />
+
+	</LinearLayout>
+
+</LinearLayout>

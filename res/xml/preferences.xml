@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+  <PreferenceCategory android:title="@string/preferences">
+    <CheckBoxPreference
+      android:key="randomizerOn"
+      android:title="@string/onOff"
+      android:defaultValue="true" />
+    <CheckBoxPreference
+      android:key="notificationOn"
+      android:title="@string/onOff"
+      android:defaultValue="true" />
+    <CheckBoxPreference
+      android:key="messagesOn"
+      android:title="@string/onOff"
+      android:defaultValue="true" />
+  </PreferenceCategory>
+        
+</PreferenceScreen>

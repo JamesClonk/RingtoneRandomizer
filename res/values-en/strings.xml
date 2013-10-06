@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="devName">JamesClonk</string>
+    <string name="appName">Ringtone Randomizer</string>
+    
+    <string name="randomize">Randomize ringtone</string>
+    <string name="clear">Clear ringtones</string>
+    <string name="clearTitle">Clear Ringtone List</string>
+    <string name="clearQuestion">Do you really want to clear all custom ringtones?</string>
+    <string name="clearYes">Yes</string>
+    <string name="clearNo">NO!</string>
+    <string name="exit">Exit</string>
+    
+    <string name="selectAll">Select all</string>
+    <string name="deselectAll">Deselect all</string>
+    
+    <string name="progressTitle">Ringtone List</string>
+    <string name="progressText">Searching ringtones..</string>
+    
+    <string name="menuTitle">Ringtone</string>
+    <string name="preview">Preview</string>
+    <string name="set">Set</string>
+    <string name="remove">Remove</string>
+    
+    <string name="preferences">Preferences</string>
+    <string name="notificationCurrently">Currently</string>
+    <string name="toastNewRingtone">New ringtone</string>
+    
+    <string name="randomizerTitle">Activate Randomizer</string>
+    <string name="randomizerInformation">Automatically changes to a random ringtone for each phone call</string>
+    <string name="notificationTitle">Show Status Notification</string>
+    <string name="notificationInformation">Displays the status icon which shows the current ringtone</string>
+    <string name="messagesTitle">Show Pop-up Messages</string>
+    <string name="messagesInformation">Displays a pop-up message for each manual change</string>
+    <string name="onOff">On / Off</string>
+    
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+    
+</resources>
