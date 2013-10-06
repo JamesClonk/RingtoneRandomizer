@@ -1,4 +1,4 @@
-RingtoneRandomizer
+Ringtone Randomizer
 ==================
 
 An Android ringtone randomizer app.
