@@ -16,7 +16,7 @@ You can either have your ringtone changed automatically after each phone call or
 ==================
 
     
-    Copyright � 2010 Fabio Berchtold
+    Copyright © 2010 Fabio Berchtold
     
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
